@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/navy" android:fillViewport="true">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:gravity="center" android:orientation="vertical" android:padding="28dp">
+
+        <TextView android:layout_width="100dp" android:layout_height="100dp" android:gravity="center"
+            android:background="@drawable/bg_logo" android:text="S" android:textColor="@color/navy"
+            android:textSize="52sp" android:textStyle="bold" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="24dp" android:text="StudyMate" android:textColor="@color/white"
+            android:textSize="36sp" android:textStyle="bold" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="14dp" android:gravity="center" android:text="@string/welcome_title"
+            android:textColor="@color/white" android:textSize="23sp" android:textStyle="bold" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" android:gravity="center" android:text="@string/welcome_subtitle"
+            android:textColor="#CBD4EC" android:textSize="16sp" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="30dp" android:gravity="center" android:text="Your personal companion for focused learning"
+            android:textColor="#AEB9D5" android:textSize="14sp" />
+
+        <Button android:id="@+id/btnGetStarted" android:layout_width="match_parent"
+            android:layout_height="56dp" android:layout_marginTop="34dp" android:background="@drawable/bg_button"
+            android:text="Get Started" android:textAllCaps="false" android:textColor="@color/white"
+            android:textSize="16sp" android:textStyle="bold" />
+
+        <TextView android:id="@+id/tvAlreadyMember" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginTop="20dp"
+            android:padding="10dp" android:text="Already have an account?  Log in"
+            android:textColor="@color/cyan" android:textSize="14sp" />
+    </LinearLayout>
+</ScrollView>

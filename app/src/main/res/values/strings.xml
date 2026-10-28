@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">StudyMate</string>
+    <string name="welcome_title">Your learning journey starts here</string>
+    <string name="welcome_subtitle">Plan smarter. Learn better. Achieve more.</string>
+    <string name="login_title">Welcome back</string>
+    <string name="login_subtitle">Sign in to continue your study journey.</string>
+    <string name="register_title">Create your account</string>
+    <string name="forgot_title">Forgot password?</string>
+    <string name="reset_title">Set a new password</string>
+    <string name="home_title">Your study space</string>
+    <string name="profile_title">Your profile</string>
+</resources>

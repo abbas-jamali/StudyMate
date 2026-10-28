@@ -1,0 +1,13 @@
+<resources>
+    <color name="navy">#10172A</color>
+    <color name="navy_light">#1C2742</color>
+    <color name="purple">#7868F5</color>
+    <color name="purple_dark">#5B4DE0</color>
+    <color name="cyan">#5AD8D0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="surface">#F4F6FC</color>
+    <color name="text_primary">#18213A</color>
+    <color name="text_secondary">#68728A</color>
+    <color name="border">#DDE2EF</color>
+    <color name="error">#C62828</color>
+</resources>

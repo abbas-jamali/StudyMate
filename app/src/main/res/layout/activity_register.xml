@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/surface"
+    android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="26dp">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="YOUR NEXT CHAPTER STARTS NOW" android:textColor="@color/purple" android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="22dp" android:text="@string/register_title" android:textColor="@color/text_primary"
+            android:textSize="30sp" android:textStyle="bold" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" android:layout_marginBottom="24dp" android:text="A few details, then you are ready to go."
+            android:textColor="@color/text_secondary" android:textSize="15sp" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Full name"
+            android:textColor="@color/text_primary" android:textStyle="bold" />
+
+        <EditText android:id="@+id/etName" android:layout_width="match_parent" android:layout_height="52dp"
+            android:layout_marginTop="7dp" android:layout_marginBottom="14dp" android:background="@drawable/bg_input"
+            android:hint="Your name" android:inputType="textPersonName" android:singleLine="true" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Email address"
+            android:textColor="@color/text_primary" android:textStyle="bold" />
+
+        <EditText android:id="@+id/etRegisterEmail" android:layout_width="match_parent" android:layout_height="52dp"
+            android:layout_marginTop="7dp" android:layout_marginBottom="14dp" android:background="@drawable/bg_input"
+            android:hint="you@example.com" android:inputType="textEmailAddress" android:singleLine="true" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Password (8+ characters)"
+            android:textColor="@color/text_primary" android:textStyle="bold" />
+
+        <EditText android:id="@+id/etRegisterPassword" android:layout_width="match_parent" android:layout_height="52dp"
+            android:layout_marginTop="7dp" android:layout_marginBottom="14dp" android:background="@drawable/bg_input"
+            android:hint="Create password" android:inputType="textPassword" android:singleLine="true" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Confirm password"
+            android:textColor="@color/text_primary" android:textStyle="bold" />
+
+        <EditText android:id="@+id/etConfirmPassword" android:layout_width="match_parent" android:layout_height="52dp"
+            android:layout_marginTop="7dp" android:layout_marginBottom="20dp" android:background="@drawable/bg_input"
+            android:hint="Repeat password" android:inputType="textPassword" android:singleLine="true" />
+
+        <Button android:id="@+id/btnCreateAccount" android:layout_width="match_parent" android:layout_height="56dp"
+            android:background="@drawable/bg_button" android:text="Create Account" android:textAllCaps="false"
+            android:textColor="@color/white" android:textSize="16sp" android:textStyle="bold" />
+
+        <TextView android:id="@+id/tvGoLogin" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" android:gravity="center" android:padding="12dp"
+            android:text="Already registered? Back to login" android:textColor="@color/purple" android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>
